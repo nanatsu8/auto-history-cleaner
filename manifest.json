@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Auto History Cleaner",
+    "version": "1.0.0",
+    "description": "Chrome起動時に自動で閲覧履歴とダウンロード履歴を削除します",
+    "permissions": [
+        "browsingData",
+        "history"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
