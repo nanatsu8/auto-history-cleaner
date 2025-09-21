@@ -1,6 +1,7 @@
+import os
+
 import cairosvg
 from PIL import Image
-import os
 
 # 変換したいサイズ
 SIZES = [16, 32, 48, 128]
